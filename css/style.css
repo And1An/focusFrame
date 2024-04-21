@@ -259,23 +259,24 @@ main {
         padding-left: 32px;
         margin-bottom: 40px;
     }
-    .main-item-left{
+
+    .main-item-left {
         display: flex;
         align-items: center;
         gap: 12px;
 
     }
 
-    .circle-text-rev{
+    .circle-text-rev {
         margin-bottom: 8px;
     }
 
-    .main-link{
+    .main-link {
         font-size: 16px;
         line-height: 1.25;
     }
 
-    .main-rudigay{
+    .main-rudigay {
         margin-left: 156px;
     }
 
@@ -285,5 +286,27 @@ main {
 
     .container {
         max-width: 1080px;
+    }
+
+    main {
+        margin: 160px 100px 150px;
+    }
+
+    .main {
+        max-width: 1080px;
+        height: 600px;
+    }
+
+    .main-lead{
+        font-size: 64px;
+        padding-top: 80px;
+        padding-left: 50px;
+    }
+    .main-lead-span{
+        font-size: 64px;
+    }
+
+    .main-text{
+        padding-left: 50px;
     }
 }
