@@ -64,6 +64,11 @@ ol {
 
 /* header */
 
+main {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 
 .header {
     margin-bottom: 20px;
@@ -99,10 +104,11 @@ ol {
 
 /* main */
 .main {
-    width: 100%;
+    max-width: 335px;
     height: 777px;
     background-color: rgba(29, 29, 29, 1);
     border-radius: 30px;
+    margin: 20px auto 80px;
 
 }
 
@@ -139,53 +145,60 @@ ol {
     margin-bottom: 40px;
 }
 
-.main-pict{
+.main-pict {
     margin-bottom: 4px;
 }
 
 
-.main-link{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.28;
-letter-spacing: -0.04em;
-color: #FFFFFF;
-margin-right: 6px;
+.main-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    margin-right: 6px;
 }
 
-.main-list{
+.main-list {
     display: flex;
     gap: 40px;
     padding-left: 20px;
     margin-bottom: 30px;
 }
 
-.main-item-link{
-    display: flex; 
+.main-item-link {
+    display: flex;
     align-items: center;
 }
 
-.main-item-right{
+.main-item-right {
     display: flex;
     gap: 12px;
 }
 
-.circle-text-rev{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.28;
-letter-spacing: -0.04em;
-color: rgba(255, 255, 255, 0.5);
+.circle-text-rev {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+    color: rgba(255, 255, 255, 0.5);
 
 }
 
-.main-rudigay{
+.main-rudigay {
     margin-right: 30px;
     margin-left: 30px;
 }
 
 
+.br-for-tabl {
+    display: none;
+}
+
+
 /* main */
+
+
 
 
 
@@ -195,6 +208,77 @@ color: rgba(255, 255, 255, 0.5);
     .container {
         max-width: 704px;
     }
+
+    main {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .br-for-mob {
+        display: none;
+    }
+
+    .br-for-tabl {
+        display: block;
+    }
+
+    .main {
+        max-width: 704px;
+        height: 900px;
+        margin: 40px auto 100px;
+
+    }
+
+    .main-lead {
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 1.06;
+        letter-spacing: -0.04em;
+        padding-left: 32px;
+        padding-top: 64px;
+
+
+    }
+
+    .main-lead-span {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 1.06;
+        letter-spacing: -0.04em;
+    }
+
+    .main-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        padding-left: 32px;
+    }
+
+    .main-list {
+        padding-left: 32px;
+        margin-bottom: 40px;
+    }
+    .main-item-left{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+    }
+
+    .circle-text-rev{
+        margin-bottom: 8px;
+    }
+
+    .main-link{
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .main-rudigay{
+        margin-left: 156px;
+    }
+
 }
 
 @media only screen and (min-width:1200px) {
