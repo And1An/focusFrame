@@ -129,7 +129,7 @@ main {
     font-size: 40px;
     line-height: 1.1;
     letter-spacing: -0.04em;
-    color: rgba(190, 166, 158, 1);
+    color: var(--brown);
 
 
 }
@@ -154,7 +154,7 @@ main {
     font-size: 14px;
     line-height: 1.28;
     letter-spacing: -0.04em;
-    color: #FFFFFF;
+    color: var(--white);
     margin-right: 6px;
 }
 
@@ -198,12 +198,50 @@ main {
 /* main */
 
 
+/* about container */
+.about-tittle {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    color: var(--white);
+    margin-bottom: 40px;
+}
+
+.about-span {
+    color: var(--brown);
+}
+
+.about-img {
+    margin-bottom: 40px;
+}
+
+.about-text-p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: var(--white);
+}
+
+.about-text-first {
+    margin-bottom: 20px;
+}
+
+
+
+/* about container */
+
+
 
 
 
 
 @media only screen and (min-width:768px) {
 
+    /* main */
     .container {
         max-width: 704px;
     }
@@ -223,7 +261,7 @@ main {
 
     .main {
         max-width: 704px;
-      
+
         margin: 40px auto 100px;
 
     }
@@ -279,10 +317,51 @@ main {
         margin-left: 156px;
     }
 
+    /* main */
+
+
+
+    /*about container  */
+
+    .about-tittle {
+        font-size: 48px;
+        line-height: 1.12;
+        letter-spacing: -0.04em;
+    }
+
+    .about-text-p {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .about-text{
+        gap: 40px;
+        display: flex;
+    }
+
+    .about-text-block{
+        max-width: 280px;
+    }
+
+    .about-img{
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+    /* about container */
+
+
+
+
+
 }
 
 @media only screen and (min-width:1200px) {
 
+    /* main */
     .container {
         max-width: 1080px;
     }
@@ -296,26 +375,52 @@ main {
         height: 600px;
     }
 
-    .main-lead{
+    .main-lead {
         font-size: 64px;
         padding-top: 80px;
         padding-left: 50px;
     }
-    .main-lead-span{
+
+    .main-lead-span {
         font-size: 64px;
     }
 
-    .main-text{
+    .main-text {
         padding-left: 50px;
     }
 
-    .hero-container{
+    .hero-container {
         display: flex;
     }
 
-    .main-text{
+    .main-text {
         margin-bottom: 136px;
     }
 
-    
+    .main-list {
+        padding-left: 50px;
+    }
+
+    /* main */
+
+/* about conteier */
+
+.about-content{
+    display: flex;
+    gap: 40px;
+}
+
+.about-text-block{
+  max-width: 270px;
+}
+
+.about-text{
+    gap: 20px;
+}
+
+.about-text-second{
+   max-width: 268px ;
+}
+/* about container */
+
 }
