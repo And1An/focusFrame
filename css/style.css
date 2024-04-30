@@ -62,6 +62,8 @@ ol {
     list-style-type: none;
 }
 
+.tittle {}
+
 /* header */
 
 main {
@@ -201,11 +203,22 @@ main {
 /* about container */
 
 
-.about{
-    
+.about {
+
     margin: 20px auto 80px;
 }
-.about-tittle {
+
+.tittle {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    color: var(--white);
+
+}
+
+.main-tittle {
     font-family: 'DM Sans';
     font-weight: 500;
     font-size: 28px;
@@ -247,17 +260,12 @@ main {
 
 /* our ccourses   */
 
-.ourcourses{
-  
+.ourcourses {
+
     margin: 20px auto 80px;
 }
+
 .ourcourses-tittle {
-    font-family: 'DM Sans';
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 1.14;
-    letter-spacing: -0.04em;
-    color: var(--white);
     margin-bottom: 20px;
 }
 
@@ -318,12 +326,183 @@ main {
     flex-direction: column;
     gap: 20px;
 }
-.br-for-desk{
-        display: none;
-    }
+
+.br-for-desk {
+    display: none;
+}
+
+.ourcourses {
+    margin-bottom: 80px;
+}
 
 /* our ccourses   */
 
+
+
+/* our mentors */
+
+.ourmentors-tittle {
+    margin-bottom: 40px;
+}
+
+
+.ourmentors-span {
+    color: var(--brown);
+}
+
+.ourmentors-img {
+    margin-bottom: 16px;
+}
+
+.ourmentors-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.ourmentors-tittle-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 4px;
+
+}
+
+.ourmetors-exp {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.ourmentors {
+    margin-bottom: 80px;
+}
+
+
+/* our mentors */
+
+
+
+
+/* signup */
+.signup-tittle {
+    margin-bottom: 20px;
+
+
+}
+
+.signup-span {
+    color: var(--brown);
+}
+
+.signup-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-bottom: 47px;
+}
+
+
+.form-inpute-name {
+    width: 100%;
+    min-height: 46px;
+    background-color: var(--bg-black);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.form-inpute-name::placeholder {
+    font-family: 'DM Sans';
+    padding-left: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+}
+
+
+
+.form-inpute-tel {
+    width: 100%;
+    min-height: 46px;
+    background-color: var(--bg-black);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+
+.form-inpute-tel::placeholder {
+    font-family: 'DM Sans';
+    padding-left: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+}
+
+.form-inpute-message {
+    width: 100%;
+    min-height: 112px;
+    background-color: var(--bg-black);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.form-inpute-message::placeholder {
+    padding-top: 14px;
+    font-family: 'DM Sans';
+    padding-left: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+
+}
+
+.signup-buttom {
+    width: 100%;
+    min-height: 48px;
+    border-radius: 12px;
+    margin: 0 auto 20px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    text-transform: uppercase;
+    color: var(--bg-black);
+
+}
+
+.sigup-footer-text {
+    font-family: 'DM Sans';
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 1.33;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.signup-footer-span {
+    text-decoration: underline;
+}
+
+.signup-img-wrap {
+    display: none;
+}
+
+
+
+
+/* signup */
 
 
 
@@ -337,6 +516,14 @@ main {
     main {
         margin-left: 32px;
         margin-right: 32px;
+    }
+
+    .main-tittle {
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 1.12;
+        letter-spacing: -0.04em;
+
     }
 
     .br-for-mob {
@@ -410,12 +597,6 @@ main {
     /*about container  */
 
 
-    .about-tittle {
-        font-size: 48px;
-        line-height: 1.12;
-        letter-spacing: -0.04em;
-    }
-
     .about-text-p {
         font-size: 16px;
         line-height: 1.25;
@@ -452,10 +633,7 @@ main {
 
     .ourcourses-tittle {
         white-space: nowrap;
-        font-weight: 500;
-        font-size: 48px;
-        line-height: 1.12;
-        letter-spacing: -0.04em;
+
     }
 
     .ourcourses-text {
@@ -482,21 +660,104 @@ main {
 
 
 
-    .ourcourses-item-tittle{
+    .ourcourses-item-tittle {
         margin-bottom: 180px;
     }
 
-    .ourcourses-number{
+    .ourcourses-number {
         margin-bottom: 32px;
     }
 
-    .br-for-desk{
+    .br-for-desk {
         display: none;
+    }
+
+    .ourcourses {
+        margin-bottom: 100px;
     }
 
     /* our ccourses   */
 
 
+
+
+    /* our mentors */
+
+    .ourmentors-tittle {
+        margin-bottom: 50px;
+    }
+
+    .ourmentors-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 93px 100px;
+    }
+
+    .ourmentors-tittle-name {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1.14;
+    }
+
+    .ourmentors-exp {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+
+    /* our mentor */
+
+
+
+
+
+    /* sign up */
+    .signup-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        margin-right: 224px;
+        margin-bottom: 40px;
+    }
+
+    .form-inpute-name {
+        max-width: 480px;
+        height: 60px;
+        margin-bottom: 14px;
+    }
+
+    .form-inpute-tel {
+        max-width: 480px;
+        height: 60px;
+        margin-bottom: 14px;
+    }
+
+    .form-inpute-message {
+        max-width: 480px;
+        height: 120px;
+    }
+
+    .signup-buttom {
+        max-width: 479px;
+        height: 60px;
+    }
+
+
+    .sigup-footer-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28;
+        max-width: 460px;
+
+
+    }
+
+
+    /* sign up  */
 
 }
 
@@ -546,7 +807,7 @@ main {
 
     /* about conteier */
 
- 
+
 
     .about-content {
         display: flex;
@@ -559,9 +820,9 @@ main {
         gap: 20px;
     }
 
-  .about-text{
-    margin-bottom: 0;
-  }
+    .about-text {
+        margin-bottom: 0;
+    }
 
     /* about container */
 
@@ -569,19 +830,86 @@ main {
 
 
     /* our courses  */
-    .ourcourses-header{
+    .ourcourses-header {
         justify-content: space-between;
-        
+
     }
-    .br-for-tabl{
+
+    .br-for-tabl {
         display: none;
     }
 
-    .br-for-desk{
+    .br-for-desk {
         display: block;
+    }
+
+    .ourcourses-list {
+        justify-content: space-between;
+    }
+
+    .ourcourses {
+        margin-bottom: 150px;
     }
 
     /* our curses */
 
-}
+
+
+
+
+    /* our mentors */
+
+    .ourmentors-list {
+        gap: 100px;
+    }
+
+    /* our mentor */
+
+
+
+
+    /* sign up */
+
+    .signup-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signup-buttom {
+        margin-left: 0;
+    }
+
+    .signup-text {
+        margin-right: 600px;
+    }
+
+    .signup-img-wrap {
+        display: block;
+
+    }
+
+    .img-left {
+        background-color: var(--brown);
+        width: 180px;
+        height: 288px;
+        border-radius: 1000px;
+
+    }
+
+    .signup-container{
+     
+    }
+
+    .img-left-pict{
+  
+    }
+
+
+    .cartoon-left{
+        padding: 76px 19px;
+    }
+
+   
+    /* sign up */
+}   
 
