@@ -40,7 +40,7 @@ img,
 picture {
     display: block;
     max-width: 100%;
-    height: auto;
+    
 }
 
 .link,
@@ -562,13 +562,13 @@ input:focus {
 }
 
 
-.reviews-baker {
+.reviews-student {
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
 
 }
 
-.reviews-baker {
+.reviews-student {
     padding: 20px;
     max-width: 335px;
 }
@@ -613,6 +613,11 @@ input:focus {
     color: #FFFFFF;
 
 
+    
+}
+
+.reviews-lovery{
+    display: none;
 }
 
 
@@ -890,11 +895,11 @@ input:focus {
         margin-bottom: 50px;
     }
 
-    .reviews-baker {
+    .reviews-student {
         max-width: 640px;
     }
 
-    .reviews-baker {
+    .reviews-student {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -913,6 +918,10 @@ input:focus {
 
 
 
+    }
+
+    .reviews-lovery{
+        display: none;
     }
 
 
@@ -1099,4 +1108,31 @@ input:focus {
 
 
     /* sign up */
+
+
+
+    /*ревью */
+
+    .reviews-lovery{
+        display: block;
+    }
+
+
+
+    .reviews-student{
+        max-width: 530px;
+        max-height: 216px;
+        display: flex;
+    }
+
+    .reviews-wrap{
+        display: flex;
+        gap: 20px;
+    }
+
+
+    .reviews{
+        margin-bottom: 150px;
+    }
+    /* ревью */
 }
