@@ -487,9 +487,9 @@ input:focus {
     color: rgba(255, 255, 255, 1);
     resize: none;
     padding-top: 14px;
-    
-    
-    
+
+
+
 
 }
 
@@ -500,8 +500,8 @@ input:focus {
     font-size: 14px;
     line-height: 1.28;
     padding-top: 0;
-    
-    
+
+
 
 
 }
@@ -510,19 +510,19 @@ input:focus {
 .form-inpute-message:active {
     border: 1px solid rgba(255, 255, 255, 0.5);
 
-    
-    
-   
-    
+
+
+
+
 }
 
 .form-inpute-message:focus {
     border: 1px solid rgba(255, 255, 255, 0.5);
-    
-  
-    
-    
-    
+
+
+
+
+
 
 }
 
@@ -540,6 +540,20 @@ input:focus {
     color: var(--bg-black);
 
 }
+
+.signup-buttom:hover {
+    background-color: rgba(29, 29, 29, 1);
+    color: var(--brown);
+    transition: all .15s ease-in 0s;
+}
+
+.signup-buttom:active {
+    background-color: rgba(29, 29, 29, 1);
+    color: var(--brown);
+    transition: all .15s ease-in 0s;
+}
+
+
 
 .sigup-footer-text {
     font-family: 'DM Sans';
@@ -840,7 +854,7 @@ input:focus {
     overflow: hidden;
 }
 
-.section-ribbon{
+.section-ribbon {
     margin-bottom: 80px;
 }
 
@@ -850,12 +864,12 @@ input:focus {
 
 @media only screen and (min-width:768px) {
 
-.section-ribbon{
-    margin-bottom: 100px;
-}
+    .section-ribbon {
+        margin-bottom: 100px;
+    }
 
 
-    
+
     .ribbon {
 
         font-weight: 400;
@@ -1440,9 +1454,9 @@ input:focus {
 
     }
 
-    .section-ribbon{
-    margin-bottom: 150px;
-}
+    .section-ribbon {
+        margin-bottom: 150px;
+    }
 
 
 }
