@@ -19,8 +19,8 @@ html {
 body {
     font-family: DM Sans;
     color: var(--white);
-
     background-color: var(--black);
+    margin: 0;
 }
 
 .container {
@@ -538,6 +538,7 @@ input:focus {
     line-height: 1.25;
     text-transform: uppercase;
     color: var(--bg-black);
+    border: none;
 
 }
 
@@ -756,6 +757,8 @@ input:focus {
     border-radius: 12px;
     caret-color: black;
     padding-left: 18px;
+    border: none;
+    
 
 
 
@@ -766,6 +769,9 @@ input:focus {
     font-size: 16px;
     padding-left: 5px;
     padding-left: 18px;
+    border: none;
+    
+    
 
 }
 
@@ -777,6 +783,8 @@ input:focus {
     font-size: 16px;
     line-height: 1.25;
     color: #121212;
+    
+
 
 
 }
@@ -801,6 +809,16 @@ input:focus {
 
 
 
+}
+
+.footer-btn:focus{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.footer-btn:hover{
+    background-color: var(--white);
+    color: var(--black);
 }
 
 .footer-form {
@@ -857,6 +875,30 @@ input:focus {
 .section-ribbon {
     margin-bottom: 80px;
 }
+
+.ourcourses-item-wrap{
+    display: flex;
+    justify-content: space-between
+}
+
+.ourcourses-link-icon{
+    padding: 6px;
+    border-radius: 50%;
+    background-color: rgba(29, 29, 29, 1);
+}
+
+
+.ourcourses-link-icon:hover{
+    background-color: rgba(190, 166, 158, 1);
+    transition: 1s;
+    
+}
+
+.ourcourses-link-icon:focus{
+    background-color: rgba(190, 166, 158, 1);
+    
+}
+
 
 
 
@@ -968,6 +1010,15 @@ input:focus {
     .main-rudigay {
         margin-left: 156px;
     }
+
+    .main-item-link{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+ 
 
     /* main */
 
@@ -1225,9 +1276,24 @@ input:focus {
     /* footer */
 }
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:1280px) {
 
     /* main */
+
+   .hero-first{
+        width: 600px;
+    }
+
+    .main-rudigay{
+        margin-left: 0;
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+
+
+
+
+
     .container {
         max-width: 1080px;
     }
@@ -1457,6 +1523,10 @@ input:focus {
     .section-ribbon {
         margin-bottom: 150px;
     }
+
+        .footer-input-email{
+            width: 215px;
+        }
 
 
 }
