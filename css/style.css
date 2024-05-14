@@ -62,7 +62,9 @@ ol {
     list-style-type: none;
 }
 
-.tittle {}
+.nav-menu {
+    display: none;
+}
 
 /* header */
 
@@ -94,20 +96,14 @@ input:focus {
 
 
 .header-nav {
-    width: 100%;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
-    display: flex;
-    justify-content: space-between;
+  
     margin-top: 20px;
 }
 
 
-.header-nav-right {
-    gap: 14px;
-    display: flex;
 
-}
 
 
 .header-logo-link {
@@ -137,7 +133,6 @@ input:focus {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 20px;
-    letter-spacing: -0.04em;
 }
 
 .main-lead-span {
@@ -719,6 +714,14 @@ input:focus {
 
 }
 
+.footer-socialnet-link:hover{
+    color: var(--brown);
+}
+
+.footer-socialnet-link:focus{
+    color: var(--brown);
+}
+
 .footer-contacts {
     margin-bottom: 40px;
 }
@@ -740,6 +743,15 @@ input:focus {
     color: #FFFFFF;
 }
 
+.footer-nav-link:hover{
+    color: var(--brown);
+
+}
+
+.footer-nav-link:focus{
+    color: var(--brown);
+}
+
 .footer-link-wrap {
     display: flex;
     gap: 40px;
@@ -758,7 +770,7 @@ input:focus {
     caret-color: black;
     padding-left: 18px;
     border: none;
-    
+
 
 
 
@@ -770,8 +782,8 @@ input:focus {
     padding-left: 5px;
     padding-left: 18px;
     border: none;
-    
-    
+
+
 
 }
 
@@ -783,7 +795,7 @@ input:focus {
     font-size: 16px;
     line-height: 1.25;
     color: #121212;
-    
+
 
 
 
@@ -811,12 +823,12 @@ input:focus {
 
 }
 
-.footer-btn:focus{
+.footer-btn:focus {
     background-color: var(--white);
     color: var(--black);
 }
 
-.footer-btn:hover{
+.footer-btn:hover {
     background-color: var(--white);
     color: var(--black);
 }
@@ -876,27 +888,27 @@ input:focus {
     margin-bottom: 80px;
 }
 
-.ourcourses-item-wrap{
+.ourcourses-item-wrap {
     display: flex;
     justify-content: space-between
 }
 
-.ourcourses-link-icon{
+.ourcourses-link-icon {
     padding: 6px;
     border-radius: 50%;
     background-color: rgba(29, 29, 29, 1);
 }
 
 
-.ourcourses-link-icon:hover{
+.ourcourses-link-icon:hover {
     background-color: rgba(190, 166, 158, 1);
     transition: 1s;
-    
+
 }
 
-.ourcourses-link-icon:focus{
+.ourcourses-link-icon:focus {
     background-color: rgba(190, 166, 158, 1);
-    
+
 }
 
 
@@ -964,7 +976,6 @@ input:focus {
         font-weight: 500;
         font-size: 60px;
         line-height: 1.06;
-        letter-spacing: -0.04em;
         padding-left: 32px;
         padding-top: 64px;
 
@@ -1011,14 +1022,14 @@ input:focus {
         margin-left: 156px;
     }
 
-    .main-item-link{
+    .main-item-link {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
 
     }
 
- 
+
 
     /* main */
 
@@ -1280,11 +1291,96 @@ input:focus {
 
     /* main */
 
-   .hero-first{
+    /* header */
+    .nav-menu-link {
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--white);
+
+    }
+
+    .nav-menu-link:hover{
+        color: var(--brown);
+    }
+
+    .nav-menu-link:focus{
+        color: var(--brown);
+    }
+
+
+
+    .header-nav{
+        padding-right: 50px;
+        padding-left: 50px;
+        display: flex;
+        justify-content: space-between;
+        max-width:822px ;
+        height: 60px;
+        gap: 97px;
+    }
+
+    .header-logo-link {
+        padding-left: 0;
+    }
+
+    .nav-menu {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+    }
+
+   .header-logo-link{
+    padding-top: 0;
+    margin-top: 22px;
+   }
+
+
+    .header-buttom {
+    width: 238px;
+    min-height: 60px;
+    border-radius: 12px;
+    margin: 0 auto 20px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.55;
+    text-transform: uppercase;
+    color: var(--bg-black);
+    border: none;
+    margin-top: 20px;
+    }
+
+.header-buttom:hover {
+    background-color: rgba(29, 29, 29, 1);
+    color: var(--brown);
+    transition: all .15s ease-in 0s;
+}
+
+.header-buttom:active {
+    background-color: rgba(29, 29, 29, 1);
+    color: var(--brown);
+    transition: all .15s ease-in 0s;
+}
+
+
+.container-header{
+    display: flex;
+    gap: 20px   ;
+}
+
+    /* header */
+
+
+    .hero-first {
         width: 600px;
     }
 
-    .main-rudigay{
+    .main-rudigay {
         margin-left: 0;
         margin-top: 80px;
         margin-right: 50px;
@@ -1299,7 +1395,7 @@ input:focus {
     }
 
     main {
-        margin: 160px 100px 150px;
+        margin: 80px 100px 150px;
     }
 
     .main {
@@ -1524,9 +1620,9 @@ input:focus {
         margin-bottom: 150px;
     }
 
-        .footer-input-email{
-            width: 215px;
-        }
+    .footer-input-email {
+        width: 215px;
+    }
 
 
 }
