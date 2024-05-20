@@ -11,6 +11,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="/css/style.css">
+   
 </head>
 
 <body>
@@ -28,9 +29,40 @@
                     <a class="nav-menu-link" href="#">Reviews</a>
                     <a class="nav-menu-link" href="#">contacts</a>
                 </div>
-
+                <div class="nav-mob-svg" >
+                    <svg class="menu-photo-svg" width="16" height="12">
+                        <use class="svg" href="./symbol-defs.svg#icon-Group"></use>
+                    </svg>
+                    <button class="menu-open-burger" type="submit" data-modal-open>
+                        <svg class="menu-open-svg" width="32" height="32">
+                            <use href="./symbol-defs.svg#icon-Nav"></use>
+                        </svg>
+                    </button>
+                </div>
             </nav>
             <button class="header-buttom" type="submit">SIGN UP</button>
+
+        </div>
+
+        <div class="mob-menu-hidden is-hidden" data-modal >
+            <button class="button-menu-close" type="submit" data-modal-close>
+                X
+            </button>
+            <div class="nav-menu-hidden">
+                <a class="menu-hidden-link" href="#">About us</a>
+                <a class="menu-hidden-link" href="#">Our courses</a>
+                <a class="menu-hidden-link" href="#">Our mentors</a>
+                <a class="menu-hidden-link" href="#">Reviews</a>
+                <a class="menu-hidden-link" href="#">contacts</a>
+            </div>
+            <picture class="hidden-pict">
+                                  <source media="(max-width: 767px)"
+                                    srcset="./img/mob-img/hidden-camerax1.png 1x, ./img/mob-img/hidden-camerax2.png  2x">
+                                <source media="(min-width: 768px) and (max-width:1279px)"
+                                    srcset="./img/tabl-img/hidden-camerax1.png 1x, ./img/tabl-img/hidden-camerax2.png 2x">
+                                      <img src="./img/mob-img/hidden-camerax2.png" alt="avatar">
+
+            </picture>
         </div>
 
     </header>
@@ -256,7 +288,7 @@
                         <p class="ourmentors-tittle-name">Mia Dubrovska</p>
                         <p class="ourmentors-exp">2.0 years of experience</p>
                     </li>
-                     <li class="ourmentors-item">
+                    <li class="ourmentors-item">
                         <div class="cover-cover-cover">
                             <img class="ourmentors-img" src="./img/eliotx2.png" width="180" height="180" alt="photo">
                             <div class="cover-cover">
@@ -457,7 +489,7 @@
     </head>
 
 
-
+<script src="./js/modal.js"></script>
 </body>
 
 </html>
