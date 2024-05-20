@@ -1513,11 +1513,7 @@ input:focus {
         gap: 28px;
     }
 
-    .header-logo-link {
-        padding-top: 0;
-        margin-top: 22px;
-    }
-
+  
 
     .header-buttom {
         width: 238px;
@@ -1808,5 +1804,15 @@ input:focus {
         display: none;
     }
 
+    .header-buttom {
+    display:block ;
 
+
+}
+
+
+.header-logo-link{
+    padding-top: auto;
+    padding-bottom: auto;
+}
 }
