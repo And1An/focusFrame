@@ -1026,6 +1026,9 @@ input:focus {
 .button-menu-close{
     display: block;
     margin-left: auto;
+    background-color: var(--brown);
+    border: none;
+    
 }
 
 .menu-hidden-link {
